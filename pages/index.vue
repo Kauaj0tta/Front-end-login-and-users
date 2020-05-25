@@ -305,8 +305,4 @@ input[type="submit"]:hover{
     transform: translateX(-20px);
   }
 }
-<<<<<<< HEAD
 </style>
-=======
-</style>
->>>>>>> 9562594c16cedccc2321c828a4051acaa8eb78d5
