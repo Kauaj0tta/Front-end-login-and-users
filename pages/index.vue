@@ -46,7 +46,7 @@
           
           <p> 
             <label for="email_cad">Seu e-mail</label>
-            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@gmail.com"/> 
           </p>
           
           <p> 
@@ -106,7 +106,7 @@ a.links{
 /* formatando o cabeçalho dos formulários */
 h1{
   font-size: 48px;
-  color: #066a75;
+  color: rgb(116, 84, 212);
   padding: 10px 0;
   font-family: Arial,sans-serif;
   font-weight: bold;
@@ -119,8 +119,8 @@ h1:after{
   width: 100%;
   height: 2px;
   margin-top: 10px;
-  background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
-  background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+  background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgb(116, 84, 212) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+  background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgb(116, 84, 212) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
 }
 
 p{
@@ -130,7 +130,7 @@ p:first-child{
   margin: 0px;
 }
 label{
-  color: #405c60;
+  color: rgb(116, 84, 212);
   position: relative;
 }
 
@@ -169,7 +169,7 @@ input:not([type="checkbox"]){
 input[type="submit"]{
   width: 100%!important;
   cursor: pointer;  
-  background: #3d9db3;
+  background: rgb(116, 84, 212);
   padding: 8px 5px;
   color: #fff;
   font-size: 20px;  
@@ -183,13 +183,13 @@ input[type="submit"]{
   transition: all 0.2s linear;
 }
 input[type="submit"]:hover{
-  background: #4ab3c6;
+  background: rgb(39, 26, 77);
 }
 
 /*marcando os links para mudar de um formulário para outro */
 .link{
   position: absolute;
-  background: #e1eaeb;
+  background: rgb(175, 156, 231);
   color: #7f7c7c;
   left: 0px;
   height: 20px;
@@ -206,9 +206,9 @@ input[type="submit"]:hover{
   font-weight: bold;
   background: #f7f8f1;
   padding: 6px;
-  color: rgb(29, 162, 193);
+  color: rgb(116, 84, 212);
   margin-left: 10px;
-  border: 1px solid #cbd518;
+  border: 1px solid rgb(78, 30, 219);
 
   -webkit-border-radius: 4px;
   border-radius: 4px;  
@@ -217,9 +217,9 @@ input[type="submit"]:hover{
   transition: all 0.4s  linear;
 }
 .link a:hover {
-  color: #39bfd7;
+  color:rgb(116, 70, 255);
   background: #f7f7f7;
-  border: 1px solid #4ab3c6;
+  border: 1px solid rgb(116, 84, 212);
 }
 
 /* estilos para para ambos os formulários */
@@ -231,7 +231,7 @@ input[type="submit"]:hover{
   padding: 18px 6% 60px 6%;
   margin: 0 0 35px 0;
   background: rgb(247, 247, 247);
-  border: 1px solid rgba(147, 184, 189,0.8);
+  border: 1px solid rgb(194, 175, 252);
   
   -webkit-box-shadow: 5px;
   border-radius: 5px;

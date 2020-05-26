@@ -24,16 +24,16 @@
                         numeric: true
                     },
                     {
-                        field: 'Primeiro Nome',
+                        field: 'first_name',
                         label: 'First Name',
                     },
                     {
-                        field: 'Útimo nome',
+                        field: 'last_name',
                         label: 'Last Name',
                     },
                     {
-                        field: 'Tipo de usuários',
-                        label: 'user_type',
+                        field: 'user_type',
+                        label: 'Type of user',
                         centered: true
                     },
                   
@@ -44,14 +44,26 @@
 </script>
 
 <style >
+*, *:before, *:after { 
+  margin:0;
+  padding:0;
+  font-family: Arial,sans-serif;
+}
+
+body{
+  margin:10px;
+}
+
 
 #style_table{
- position: absolute;
-  width: 100%;   
-  padding: 18px 6% 60px 6%;
+position: absolute;
+  width: 90%;   
+  padding: 20px 7% 60px 7%;
   margin: 0 0 35px 0;
-  background: rgb(247, 247, 247);
-  border: 1px solid rgba(147, 184, 189,0.8);
+  background: rgb(255, 253, 253);
+  border-radius: 15px;
+
+ 
   
 }
 

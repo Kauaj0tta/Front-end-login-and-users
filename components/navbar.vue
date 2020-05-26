@@ -16,14 +16,17 @@
                 Documentation
             </b-navbar-item>
             <b-navbar-dropdown label="Info">
-            <n-link to="/users"> <b-navbar-item href="#">
-                    About
-                </b-navbar-item>
-                <n-link>
+                <nuxt-link to="/users">
                 <b-navbar-item href="#">
-                    Contact
+                    Usuários
+                </b-navbar-item>
+                </nuxt-link>
+                <b-navbar-item href="#">
+                    Contato
                 </b-navbar-item>
             </b-navbar-dropdown>
         </template>
+
+       
     </b-navbar>
 </template>
